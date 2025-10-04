@@ -96,7 +96,7 @@ if uploaded:
     else:
         df_raw = pd.read_excel(uploaded)
 elif example_btn:
-    df_raw = pd.read_csv("sample_data.csv")
+    df_raw = pd.read_csv("sample_data.xlsx")
 
 # -----------------------------
 # Main UI
